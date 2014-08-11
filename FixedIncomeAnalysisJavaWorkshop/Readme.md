@@ -19,7 +19,7 @@ Go from 'File --> New --> Other --> Server --> Apache --> choose Tomcat 6+.
 Give the Java installation address inside your file system and also setup other system variables according to the installation Wizards.
 
 =========================
-How to import the project
+How to Import the Project
 =========================
 Create a new project in your Eclipse from 'File --> New --> Web --> Dynamic Web Project' and set the project name as: 'FixedIncomeAnalysisJavaWorkshop'.
 
@@ -34,6 +34,7 @@ into your browser.
 Eclipse J2EE Project Tutorials
 ==============================
 In case you don't have any developing experience with Eclipse IDE, here're some simple and useful tutorials you can go to:
+
 1. Youtube Video, Creating a Web Application with Eclipse IDE: https://www.youtube.com/watch?v=Av6zh817QEc
 
 2. Eclipse Help files, Creating a Dynamic Web Project in Eclipse: http://help.eclipse.org/kepler/index.jsp?topic=%2Forg.eclipse.stardust.docs.wst%2Fhtml%2Fwst-integration%2Fdynamic-web-proj.html
@@ -41,6 +42,7 @@ In case you don't have any developing experience with Eclipse IDE, here're some 
 3. Use of Eclipse IDE for Java EE Developers: http://www.edu4java.com/en/servlet/servlet4.html
 
 4. Developing a Hello World Web application: http://geronimo.apache.org/GMOxDOC30/developing-a-hello-world-web-application.html
+
 
 
 Byte Academy
