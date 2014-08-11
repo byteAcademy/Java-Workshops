@@ -15,7 +15,8 @@ Java version: 1.6+. If you don't have the right Java verseion, please download t
 Again, choose the right package according to your operating system.
 
 Web Server: Tomcat 6+. Setup the webserver inside your Eclipse IDE:
-Go from 'File --> New --> Other --> Server --> Apache --> choose Tomcat 6+. Give the Java installation address inside your file system and also setup other system variables according to the installation Wizards.
+Go from 'File --> New --> Other --> Server --> Apache --> choose Tomcat 6+. 
+Give the Java installation address inside your file system and also setup other system variables according to the installation Wizards.
 
 =========================
 How to import the project
