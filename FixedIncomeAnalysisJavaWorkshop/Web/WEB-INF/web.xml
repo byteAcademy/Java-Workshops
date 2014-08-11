@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.4" xmlns="http://java.sun.com/xml/ns/j2ee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee 
+	http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+	
+	<servlet>
+		<servlet-name>DiscountVsPaymentFreqAction</servlet-name>
+		<display-name>DiscountVsPaymentFrequency</display-name>
+		<description>Used to Calculate the Discount and Payment Frequency of Bond</description>
+		<servlet-class>com.byteconsulting.workshop.java.web.action.DiscountVsPaymentFreqAction</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+		Used to calculate the bond cashflow</description>
+		<display-name>CashflowCalculationAction</display-name>
+		<servlet-name>CashflowCalculationAction</servlet-name>
+		<servlet-class>com.byteconsulting.workshop.java.web.action.CashflowCalculationAction</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>DiscountVsPaymentFreqAction</servlet-name>
+		<url-pattern>/DiscountVsPaymentFreqAction</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>CashflowCalculationAction</servlet-name>
+		<url-pattern>/CashflowCalculationAction</url-pattern>
+	</servlet-mapping>
+	
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.htm</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>default.html</welcome-file>
+		<welcome-file>default.htm</welcome-file>
+		<welcome-file>default.jsp</welcome-file>
+	</welcome-file-list>
+	
+</web-app>
